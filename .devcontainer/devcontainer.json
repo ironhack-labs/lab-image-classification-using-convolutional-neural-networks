@@ -1,0 +1,10 @@
+{
+  "name": "TensorFlow GPU (NGC)",
+  "image": "nvcr.io/nvidia/tensorflow:25.01-tf2-py3",
+  "runArgs": ["--gpus=all"],
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+    }
+  }
+}
